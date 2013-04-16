@@ -15,5 +15,5 @@ exec_local += dwarf-crc-exec-local
 dwarf-crc-all-local:
 	cp $(top_srcdir)/combinational-logic/crc/crc_algo_kernel.cl .
 
-dwarf-crc-exec-local:
-	cp $(top_srcdir)/combinational-logic/crc/crc_algo_kernel_2.cl ${DESTDIR}${bindir}
+#dwarf-crc-exec-local:
+#	cp $(top_srcdir)/combinational-logic/crc/crc_algo_kernel_2.cl ${DESTDIR}${bindir}
